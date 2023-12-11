@@ -40,7 +40,7 @@ jika muncul versinya, maka instalasi environment berhasil
 
 2. ketik command 
 
-```pip install -r requirements.txt```
+```cat requirements.txt | xargs -n 1 pip install```
 
 3. tunggu hingga proses instalasi berhenti
 
